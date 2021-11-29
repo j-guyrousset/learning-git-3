@@ -1,6 +1,31 @@
-<p>
-  <button>Click me!</button>
-  <div id="show-me">
-    Lorem ipsum
-  </div>
-</p>
+
+
+Jean-Guy@DESKTOP-82SI2R0 MINGW64 /e/projects_kodilla/learning-git-3 (main)
+$ npm exec html-validate *.html
+
+E:\projects_kodilla\learning-git-3\errored_file01.html
+  1:1  warning  Usage of deprecated rule "void"                     deprecated-rule
+  1:2  error    Element <p> is implicitly closed by adjacent <div>  no-implicit-close
+  2:4  error    <button> is missing required "type" attribute       element-required-attributes
+  6:2  error    Unexpected close-tag, expected opening tag          close-order
+
+E:\projects_kodilla\learning-git-3\errored_file02.html
+  1:1  warning  Usage of deprecated rule "void"                                             deprecated-rule
+  4:2  error    Element <ul> is not permitted as content in <ul>                            element-permitted-content
+  4:5  error    Missing close-tag, expected '</ul>' but document ended before it was found  close-order
+  4:5  error    Missing close-tag, expected '</ul>' but document ended before it was found  close-order
+
+E:\projects_kodilla\learning-git-3\index.html
+  1:1  warning  Usage of deprecated rule "void"  deprecated-rule
+
+✖ 9 problems (6 errors, 3 warnings)
+
+More information:
+  https://html-validate.org/rules/deprecated-rule.html
+  https://html-validate.org/rules/no-implicit-close.html
+  https://html-validate.org/rules/element-required-attributes.html
+  https://html-validate.org/rules/close-order.html
+  https://html-validate.org/rules/element-permitted-content.html
+
+
+Jean-Guy@DESKTOP-82SI2R0 MINGW64 /e/projects_kodilla/learning-git-3 (main)
