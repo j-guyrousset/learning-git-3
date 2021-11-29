@@ -19,11 +19,14 @@ body {
 
 /*section lyrics*/
 .lyrics {
-  .song-title {
-    text-align: center;
-    color: green;
-  }
-  .text{
-    color: red;
-  }
+
+
+}
+.song-title {
+  text-align: center;
+  color: green;
+}
+
+.text{
+  color: red;
 }
